@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>Variables Famoso PHP</title>
+</head>
+<body>
+    <div class="cuerpo-formulario">
+        <h1 class="titulo">DATOS DE FAMOSO</h1>
+        <form class="formulario" action="index.php" method="POST" class="">
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre del famoso" required>
+            <label class="form-control" for="edad">EDAD</label>
+            <input type="number" class="form-control" id="edad" name="edad" required>
+            <label class="form-control" for="estado">ESTADO</label>
+            <select class="select" id="estado" name="estado" required>
+                <option value="vivo">Vivo</option>
+                <option value="muerto">Muerto</option>
+            </select>
+            <input type="submit" class="form-control button" value="ENVIAR" />
+        </form>
+    </div>
+</body>
+</html>
